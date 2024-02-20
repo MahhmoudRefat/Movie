@@ -25,7 +25,7 @@ interface albumdao {
     suspend fun  isExsiste(titleName: String) : Boolean
 
     @Query("select * from MovieTable ")
-    fun getLivedatamovie():LiveData<movies>
+    fun getalbumlistroom():LiveData<movies>
 
 
 }
